@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Sai Technology</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="author" content="nileforest">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+<!-- Favicone Icon -->
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/favicon.png">
+<!-- CSS -->
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+<link href="css/ionicons.css" rel="stylesheet" type="text/css" />
+<link href="css/plugin/jPushMenu.css" rel="stylesheet" type="text/css" />
+<link href="css/plugin/animate.css" rel="stylesheet" type="text/css" />
+<link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="full-intro background--dark">
+	<!-- Preloader -->
+	<section id="preloader">
+		<div class="loader" id="loader">
+			<div class="loader-img"></div>
+		</div>
+	</section>
+	<!-- End Preloader -->
+	<!-- Sidemenu -->
+	<section
+		class="side-menu cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right">
+		<a class="menu-close toggle-menu menu-right push-body"> <i
+			class="ion ion-android-close"></i>
+		</a>
+		<h5 class="white">Sign In</h5>
+		<div class="sign-in">
+			<input class="input-sm form-full" type="email" aria-required="true"
+				id="email" name="email" placeholder="Email" value="" /> <input
+				class="input-sm form-full" type="password" aria-required="true"
+				id="password" name="password" placeholder="Password" value="" /> <input
+				type="submit" class="btn btn-md btn-color-b form-full"
+				value="Sign In" /> <a> New Customer? </a>
+		</div>
+		<ul>
+			<li><a target="_blank" href="index.html"> Main Demo Page </a></li>
+			<li><a href="index.html"> Home Default </a></li>
+			<li><a href="portfolio-grid-2col.html"> Portfolio </a></li>
+			<li><a href="login-register.html"> Login & Signup </a></li>
+			<li><a href="faq-1.html"> FAQ </a></li>
+			<li><a href="about-1.html"> About </a></li>
+			<li><a href="service-1.html"> Service </a></li>
+			<li><a href="blog-grid-3col.html"> Blog </a></li>
+			<li><a href="404-error-1.html"> 404 Error </a></li>
+			<li><a href="shop-checkout.html"> Shopping Cart </a></li>
+			<li><a href="contact-1.html"> Contact Us </a></li>
+		</ul>
+	</section>
+	<!--End Sidemenu -->
+	<!-- Search menu Top -->
+	<section
+		class=" top-search-bar cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top">
+		<div class="container">
+			<div class="search-wraper">
+				<input type="text" class="input-sm form-full"
+					placeholder="Search..." name="search" /> <a
+					class="search-bar-icon"> <i class="fa fa-search"></i>
+				</a> <a class="bar-close toggle-menu menu-top push-body"> <i
+					class="ion ion-android-close"></i>
+				</a>
+			</div>
+		</div>
+	</section>
+	<!--End Search menu Top -->
+	<!-- Site Wraper -->
+	<div class="wrapper">
+		<!-- HEADER -->
+		<header class="header">
+	<div class="container">
+		<!-- logo -->
+		<div class="logo">
+			<a href="index.html"> <img class="l-black"
+				src="img/logo-color.png" /> <img class="l-white"
+				src="img/logo-color.png" /> <img class="l-color"
+				src="img/logo-color.png" />
+			</a>
+		</div>
+		<!--End logo-->
+		<!-- Navigation Menu -->
+		<nav class='navigation'>
+			<ul>
+				<li><a href="company-overview.html"> COMPANY </a> <!-- Nav Dropdown -->
+					<ul class="nav-dropdown">
+						<li><a href='company-overview.html'> Company Overview </a></li>
+						<li><a href="board-members.html"> Board Members </a></li>
+						<li><a href="management-team.html"> Management </a></li>
+						<li><a href="careers.html"> Careers </a></li>
+					</ul> <!-- End Nav Dropdown --></li>
+				<li><a> PRODUCTS </a> <!-- Nav Dropdown -->
+							<ul class="nav-dropdown">
+								<li><a href="Communications.html"> CS-COMMUNICATIONS </a></li>
+								<li><a href='Video.html'> CS-VIDEO </a></li>
+								<li><a href="Storage.html"> CS-STORAGE </a></li>
+								<li><a href="Security.html"> CS-SECURITY </a></li>
+							</ul> <!-- End Nav Dropdown --></li>
+				<li><a> Solutions </a> <!-- Nav Dropdown -->
+					<ul class="nav-dropdown">
+						<li><a href='usecase-financial.html'> Financial</a></li>
+						<li><a href='usecase-healthcare.html'> Healthcare </a></li>
+						<li><a href='usecase-education.html'> Education </a></li>
+						<li><a href='usecase-publicsafety.html'> Public Safety </a></li>
+					</ul> <!-- End Nav Dropdown --></li>
+				<li><a href="partners.html"> Partners </a></li>
+				<li><a href='defence.html'> Defense </a> <!-- Nav Dropdown -->
+					<ul class="nav-dropdown">
+						<li><a href='defence-routers.html'> Routers </a> <!-- Sub Nav Dropdown -->
+							<ul class="nav-sub-dropdown">
+								<li><a href='defence-routers.html#4G LTE 11ac Eagle'>
+										4G LTE 11ac Eagle Enterprise Router </a></li>
+								<li><a href='defence-routers.html#LTE Eagle Industrial'>
+										LTE Eagle Industrial Router </a></li>
+								<li><a href='defence-routers.html#3G 4G LTE STINGER'>
+										3G 4G LTE STINGER </a></li>
+							</ul> <!-- End Sub Nav Dropdown --></li>
+						<li><a href='defence-m2m.html'> M2M </a> <!-- Nav Dropdown -->
+							<ul class="nav-sub-dropdown">
+								<li><a href='defence-m2m.html'> 3G 4G LTE Smart M2M
+										Router </a></li>
+							</ul></li>
+						<li><a href='defence-wifi.html'> Wi Fi </a> <!-- Nav Dropdown -->
+							<ul class="nav-sub-dropdown">
+								<li><a href='defence-wifi.html#WiFi'> Video
+										Distribution Device </a></li>
+								<li><a href='defence-wifi.html#WiFiBTS'> Wi Fi BTS /
+										Relay / CPE </a></li>
+							</ul></li>
+						<li><a href='defence-lte.html'> LTE </a></li>
+						<li><a href='defence-backhaul.html'> Backhaul </a> <!-- Nav Dropdown -->
+							<ul class="nav-sub-dropdown">
+								<li><a href='defence-backhaul.html#3G4G'> 3G 4G LTE
+										Backhaul </a></li>
+								<li><a href='defence-backhaul.html#3G Traffic'> 3G
+										Traffic Offload Device </a></li>
+							</ul></li>
+						<li><a href='defence-research-and-developement.html'>
+								Research and Development </a> <!-- Sub Nav Dropdown -->
+							<ul class="nav-sub-dropdown">
+								<li><a
+									href='defence-research-and-developement.html#4GAdvanced'>
+										4G LTE Advanced </a></li>
+								<li><a
+									href='defence-research-and-developement.html#802.11 AC'>
+										802.11 AC / AD / WiGiga </a></li>
+								<li><a
+									href='defence-research-and-developement.html#WirelessVideo'>
+										Wireless Video </a></li>
+
+								<li><a
+									href='defence-research-and-developement.html#WhitePapers'>
+										White Papers </a></li>
+							</ul></li>
+						<li><a href='defence-technology-and-licensing.html'>
+								Technology and Licensing </a>
+							<ul class="nav-sub-dropdown">
+								<li><a href='defence-technology-and-licensing.html#LTE_UE'>
+										LTE UE </a></li>
+								<li><a
+									href='defence-technology-and-licensing.html#LTE_ENodeB'>
+										LTE ENodeB </a></li>
+								<li><a href='defence-technology-and-licensing.html#LTE_EPC'>
+										LTE EPC </a></li>
+								<li><a href='defence-technology-and-licensing.html#LTE_Adv'>
+										LTE Advanced </a></li>
+							</ul></li>
+					</ul> <!-- End Nav Dropdown --></li>
+				<li><a href="contact.html"> CONTACT </a></li>
+			</ul>
+		</nav>
+		<!--End Navigation Menu -->
+	</div>
+</header>
+		<!-- END HEADER -->
+		<!-- CONTENT --------------------------------------------------------------------------------->
+		<!-- Intro Section -->
+		<section
+			class="inner-intro bg-img4 light-color overlay-dark parallax parallax-background2">
+			<div class="container">
+				<div class="row title">
+					<h2 class="h2">Defense</h2>
+				</div>
+			</div>
+		</section>
+		<div class="clearfix"></div>
+		<!-- End Intro Section -->
+		<!-- Blank Section -->
+		<section class="ptb ptb-sm-80">
+			<div class="container">
+				<div class="row" id="4G LTE 11ac Eagle">
+					<div class="col-md-12">
+						<h1>Routers</h1>
+						<h2>
+							<strong>4G LTE 11ac Eagle Enterprise Router</strong>
+						</h2>
+						<p>
+							<strong>Overview:</strong>
+						</p>
+						<p>SAI&rsquo;s leading product is the Eagle 4G LTE cloud
+							wireless broadband router. The Eagle router is perfect for
+							enterprise class network applications. Designed in compliance
+							with IEEE802.11ac and backwards compatibility with
+							IEEE802.11a/b/g/n standards; the Eagle router uses MIMO 3x3
+							technology to provide data transmissions of up to 1300 + 450 Mbps
+							and a coverage of over 100m indoors/300m outdoors.</p>
+						<p>It supports 3G/4G LTE USB data dongle cards. The Eagle
+							device provides many high-end router functions such as VRRP,
+							Routes, Auto Fail-Over, Port Forwarding, Advanced wireless
+							security and IPSec Tunneling to enable robust networking
+							configurations for a reliable network.</p>
+
+						<p>
+							<img src="./Sai Technology defense_files/router1.png"
+								alt="Forest" width="300" height="200">
+						</p>
+
+						<p>
+							<strong>Highlights:</strong>
+						</p>
+						<ul>
+							<li>802.11ac&nbsp; dual band 2.4ghz and 5ghz</li>
+							<li>Datacard dongle support 3G, 4G and LTE</li>
+							<li>1300 mbps + 450 mbps ultra &ndash; fast speeds</li>
+							<li>HD video streaming</li>
+						</ul>
+						<p>
+							<strong> Applications:</strong>
+						</p>
+						<ul>
+							<li>Carrier fiber optic service router</li>
+							<li>Cloud router</li>
+							<li>SMB router</li>
+							<li>Enterprise router</li>
+							<li>Cyber Secure router</li>
+						</ul>
+						<p>
+							<strong>Performance</strong>
+						</p>
+						<ul>
+							<li>Gigabit Wireless AND Ethernet Connections</li>
+							<li>Advanced Encryption Technologies and Access Control</li>
+							<li>Optimized WAN speeds</li>
+							<li>Multimedia High Performance</li>
+							<li>Stream HD videos, Gaming, VOiP, Business Apps, Email,
+								Web Surfing</li>
+							<li>The router prioritizes incoming data by its importance
+								using advanced QoS (Quality of Service) design.</li>
+							<li>Supports Cable, DSL, ethernet WAN, Fiber, T1, E1, WiMAX,
+								3G/4G and LTE</li>
+							<li>User Friendly GUI</li>
+							<li>SmartPhone Tethering</li>
+							<li>Use your IPhone or Android Tethering capabilities to
+								provide internet access</li>
+							<li>3G/4G or LTE USB Dongle connectivity with auto-failover</li>
+							<li>Why pay for cable/DSL if you have a 3G/4G Dongle.
+								Provide internet access to your network using the dongle or use
+								it as a backup internet connection if you cable/dsl goes down
+								automatically.</li>
+							<li>The Eagle can be setup so there is no point of failure.
+								Within seconds, a router losing connectivity due to a wired
+								connection (DSL, Cable, etc) problem can switch over to a backup
+								wireless 3G/4G or LTE connection from a USB dongle. This can
+								ensure you have minimal downtime. Other options can further
+								enhance your reliability as well.</li>
+							<li>Backwards compatible with Wireless b/g/n/ac technology</li>
+							<li>Advanced Router Options</li>
+							<li>(VRRP, RIP, DMZ Host, DHCP Server, OMA-DM, Port
+								Forwarding, FOTA via User GUI)</li>
+						</ul>
+						<p>
+							<strong>Enterprise Technology</strong>
+						</p>
+
+						<p>
+							<img src="./Sai Technology defense_files/router2.png"
+								alt="Forest" width="500" height="700"> <img
+								src="./Sai Technology defense_files/router3.png" alt="Forest"
+								width="500" height="700">
+						</p>
+						<p>Establish a robust enterprise network with the EAGLE router
+							via optional Enterprise Software Packages.</p>
+						<p>Network control can be managed via SAI software
+							applications such as TR-069 or E-OAM support for allowing
+							administrators to remotely manage network devices, schedule time
+							for synchronized firmware upgrades, or troubleshoot and analyze
+							network conditions.</p>
+						<p>Advanced encryption technologies and Access Control</p>
+						<p>Security Protocols</p>
+						<p>IPSec, NAT, GRE, SSH,CLI &amp; State-full Packet Firewall</p>
+						<p>
+							<strong>Custom Optional Management Features</strong>
+						</p>
+						<ul>
+							<li>Remote management and configuration via SSH and CLI</li>
+							<li>Monitor and manage router remotely using SNMP V2</li>
+							<li>CAPWAP</li>
+							<li>E-OAM</li>
+							<li>Load Balancing</li>
+							<li>RRM</li>
+							<li>Spectrum Management</li>
+							<li>TR-064</li>
+							<li>TR-069</li>
+							<li>VRRP</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="container">
+				<h4>More Specs :</h4>
+				<!-- Trigger the modal with a button -->
+				<button type="button" class="btn btn-info btn-lg"
+					data-toggle="modal" data-target="#myModal1">Eagle Brochure</button>
+
+				<!-- Modal -->
+				<div class="modal fade" id="myModal1" role="dialog">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">EAGLE 4G LTE Cloud Wireless
+									Broadband Router Enterprise Class with 802.11ac</h4>
+							</div>
+							<div class="modal-body">
+								<p>
+									<embed
+										src="./Sai Technology defense_files/1_sai-eagle-4glte-11ac_brochure.pdf"
+										width="870" height="700" alt="pdf"
+										pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default"
+									data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	</div>
+	</div>
+
+	<div class="container">
+		<h4>Product Support :</h4>
+		<!-- Trigger the modal with a button -->
+		<button type="button" class="btn btn-info btn-lg" data-toggle="modal"
+			data-target="#myModal2">User Manual :</button>
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal2" role="dialog">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">EAGLE 3G/4G LTE Enterprise Class
+							Router User Manual</h4>
+					</div>
+					<div class="modal-body">
+						<p>
+							<embed
+								src="./Sai Technology defense_files/2_sai-eagle-user_manual_r1.pdf"
+								width="870" height="700" alt="pdf"
+								pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<br />
+	<div class="container">
+		<!-- Trigger the modal with a button -->
+		<button type="button" class="btn btn-info btn-lg" data-toggle="modal"
+			data-target="#myModal3">Quick Start Guide</button>
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal3" role="dialog">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">EAGLE 4G LTE CLOUD WIRELESS BROADBAND
+							ROUTER QUICK START GUIDE</h4>
+					</div>
+					<div class="modal-body">
+						<p>
+							<embed
+								src="./Sai Technology defense_files/3_sai-eagle-quickstart_guide-web.pdf"
+								width="870" height="700" alt="pdf"
+								pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<p />
+	<hr />
+	<p />
+	<div class="container" id="LTE Eagle Industrial">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>
+					<strong>LTE Eagle Industrial Router</strong>
+				</h2>
+				<p>
+					<img src="./Sai Technology defense_files/router4.png" alt="Forest"
+						width="500" height="700">
+				</p>
+				<p>SAI Technology&rsquo;s Eagle industrial Router has a highly
+					ruggedized embedded design. It features a low power, extended
+					operating temperature range, fail-over, single/dual SIM, and a
+					multi-band frequency mobile 3G, 4G, LTE communication module (dual
+					module option) geared for targeted applications.</p>
+				<p>
+					<strong>Highlights</strong>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+				</p>
+				<ul>
+					<li>Embedded Module Support 3G, 4G and LTE</li>
+					<li>Tri-Band, Multi-Frequency</li>
+					<li>11n 1x1, (optional) 2x2 MIMO</li>
+					<li>RS232/RS485 MODBUS</li>
+					<li>Cloud Management</li>
+					<li>Industrial Grade Components</li>
+					<li>(extended operating temperatures)</li>
+				</ul>
+				<p>
+					<strong>Applications </strong>
+				</p>
+				<ul>
+					<li>M2M</li>
+					<li>Cloud Router</li>
+					<li>SMB Router</li>
+					<li>Point of Sale (POS)</li>
+					<li>Field Applications (Mining, Agriculture, etc</li>
+				</ul>
+				<p>
+					<strong>Key features</strong>
+				</p>
+				<ul>
+					<li>Performance</li>
+					<li>Supports Cable, DSL, ethernet WAN, Fiber, T1, E1, WiMAX,
+						3G/4G and LTE</li>
+					<li>User Friendly GUI</li>
+					<li>3G/4G or LTE Embedded Module connectivity with
+						auto-failover</li>
+					<li>Provide internet access to your network using the
+						3G/4G/LTE embedded module or use it as a backup internet
+						connection</li>
+					<li>The Eagle can be setup so there is no point of failure.
+						Within seconds, a router losing connectivity due to a wired
+						connection (DSL, Cable, etc) problem can switch over to a backup
+						wireless 3G/4G or LTE cellular connection. This can ensure you
+						have minimal downtime. Other options can further enhance your
+						reliability as well.</li>
+					<li>Backwards compatible with Wireless b/g/n technology</li>
+					<li>Advanced Router Options</li>
+					<li>(VRRP, RIP, DMZ Host, DHCP Server, OMA-DM, Port
+						Forwarding, FOTA via User GUI)</li>
+				</ul>
+				<p>
+					<strong>Machine 2 Machine Connectivity</strong>
+				</p>
+				<p>
+					<img src="./Sai Technology defense_files/router5.png" alt="Forest"
+						width="300" height="500" hspace="35"> <img
+						src="./Sai Technology defense_files/router6.png" alt="Forest"
+						width="300" height="500" hspace="35"> <img
+						src="./Sai Technology defense_files/router7.png" alt="Forest"
+						width="300" height="500" hspace="35">
+				</p>
+				<p>Establish a robust enterprise network with the EAGLE router
+					via optional Enterprise Software Packages.</p>
+				<p>Network control can be managed via SAI software applications
+					such as TR-069 or E-OAM support for allowing administrators to
+					remotely manage network devices, schedule time for synchronized
+					firmware upgrades, or troubleshoot and analyze network conditions.</p>
+				<p>
+					<strong>Industrial design</strong>
+				</p>
+				<ul>
+					<li>Strong Electromagnetic Interference Resistance</li>
+					<li>Heat Indurance and Radiation ability</li>
+					<li>Various Modules</li>
+					<li>LTE</li>
+					<li>3G/HSPA+/EVDO/CDMA2000</li>
+					<li>RS-232/RS-485 Interface</li>
+					<li>Data transparent transmission and protocol conversion</li>
+				</ul>
+				<p>
+					<strong>Custom Optional Management Features</strong>
+				</p>
+				<ul>
+					<li>SAI Cloud Management Platform</li>
+					<li>Remote management and configuration via SSH and CLI</li>
+					<li>Monitor and manage router remotely using SNMP V2</li>
+					<li>E-OAM</li>
+					<li>Load Balancing</li>
+					<li>RRM</li>
+					<li>TR-064</li>
+					<li>TR-069</li>
+					<li>VRRP</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<p />
+	<hr />
+	<p />
+
+	<div class="container" id="3G 4G LTE STINGER">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>
+					<strong>3G 4G LTE STINGER</strong>
+				</h2>
+				<p>
+					<strong>Stinger Embedded Router</strong>
+				</p>
+				<p>SAI Technology&rsquo;s Stinger Embedded Class 3G/4G LTE
+					Broadband Router provides a cellular connection for various
+					real-time applications.&nbsp; The STINGER allows for business
+					continuity by utilizing advanced Fail-over
+					functionality&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					with an embedded 3G/4G/LTE&nbsp; module.&nbsp; An easy to use
+					Web-Interface will enable an instant wireless network anywhere a
+					cellular signal is available.</p>
+				<p>
+					<img src="./Sai Technology defense_files/router8.png">
+				</p>
+				<h6>Stinger Router</h6>
+				<iframe width="560" height="315"
+					src="https://www.youtube.com/embed/nHVlELrp6ko" frameborder="0"
+					allowfullscreen></iframe>
+				<h6>Demo Stinger Router</h6>
+				<p>&nbsp;</p>
+				<p>
+					<strong>Highlights</strong>
+				</p>
+				<ul>
+					<li>Embedded Module Support 3G, 4G and LTE</li>
+					<li>Tri-Band, Multi-Frequency</li>
+					<li>11n 2x2 MIMO</li>
+					<li>Cloud Management</li>
+					<li>RJ11 Phone Line Support</li>
+				</ul>
+				<p>
+					<strong>Applications</strong>
+				</p>
+				<ul>
+					<li>M2M and IoT</li>
+					<li>Cloud Router</li>
+					<li>SMB Router</li>
+					<li>Point of Sale (POS)</li>
+					<li>Home and SOHO</li>
+					<li>Security</li>
+					<li>Sensor</li>
+				</ul>
+				<p>
+					<strong>Key features</strong>
+				</p>
+				<ul>
+					<li>Performance</li>
+					<li>Supports Cable, DSL, ethernet WAN, Fiber, T1, E1, WiMAX,
+						3G/4G and LTE</li>
+					<li>User Friendly GUI</li>
+					<li>3G/4G or LTE Embedded Module connectivity with
+						auto-failover</li>
+					<li>Provide internet access to your network using the
+						3G/4G/LTE embedded module or use it as a backup internet
+						connection</li>
+					<li>The Stinger can be setup so there is no point of failure.
+						Within seconds, a router losing connectivity due to a wired
+						connection (DSL, Cable, etc) problem can switch over to a backup
+						wireless 3G/4G or LTE cellular connection. This can ensure you
+						have minimal downtime. Other options can further enhance your
+						reliability as well.</li>
+					<li>Backwards compatible with Wireless b/g/n technology</li>
+					<li>Advanced Router Options</li>
+					<li>(VRRP, RIP, DMZ Host, DHCP Server, OMA-DM, Port
+						Forwarding, FOTA via User GUI)</li>
+				</ul>
+				<p>
+					<strong>Machine 2 Machine connectivity </strong>
+				</p>
+				<p>Establish a robust enterprise network with the Stinger router
+					via optional Enterprise Software Packages.</p>
+				<p>Network control can be managed via SAI software applications
+					such as TR-069 or E-OAM support for allowing administrators to
+					remotely manage network devices, schedule time for synchronized
+					firmware upgrades, or troubleshoot and analyze network conditions.</p>
+				<p>
+					<img src="./Sai Technology defense_files/router9.png">
+				</p>
+				<p>
+					<strong>Industrial design</strong>
+				</p>
+				<ul>
+					<li>Strong Electromagnetic Interference Resistance</li>
+					<li>Heat Indurance and Radiation ability</li>
+				</ul>
+				<p>
+					<strong>Various Modules</strong>
+				</p>
+				<ul>
+					<li>LTE</li>
+					<li>3G/HSPA+/EVDO/CDMA2000</li>
+				</ul>
+				<p>
+					<strong>RJ11 Interface </strong>
+				</p>
+				<ul>
+					<li>Connect a phone directly to the router</li>
+				</ul>
+				<p>
+					<strong>Custom Optional Management Features </strong>
+				</p>
+				<ul>
+					<li>SAI Cloud Management Platform</li>
+					<li>Remote management and configuration via SSH and CLI</li>
+					<li>Monitor and manage router remotely using SNMP V2</li>
+					<li>E-OAM</li>
+					<li>Load Balancing</li>
+					<li>RRM</li>
+					<li>TR-064</li>
+					<li>TR-069</li>
+					<li>VRRP</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<br />
+	</div>
+
+
+	</section>
+	<!-- End Blank Section -->
+	<!-- End CONTENT ------------------------------------------------------------------------------>
+	<!-- FOOTER -->
+	<footer class="footer pt-80">
+		<div class="container">
+			<!--Footer Info -->
+			<div class="row footer-info">
+				<div class="col-md-3 col-sm-6 col-xs-12 mb-sm-30 mb-xs-0">
+					<ul class="link">
+						<li><a href="company-overview.html"> COMPANY </a></li>
+						<li><a href="products.html"> PRODUCTS </a></li>
+						<li><a href="solutions.html"> SOLUTIONS </a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 mb-sm-30">
+					<ul class="link">
+						<li><a href="partners.html">Partners </a></li>
+						<li><a href="careers.html"> CAREER </a></li>
+						<li><a href="contact.html"> CONTACT </a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-sm-12 col-xs-12">
+					<p>
+						<a class="footer-logo" href="index.html"> <img
+							src="img/logo-footer.png" />
+						</a>
+					</p>
+					<p>2376, Walsh Avenue, Santa Clara, California,USA.</p>
+				</div>
+				<div class="col-md-3 col-sm-12 col-xs-12">
+					<ul class="link-small">
+						<li><a href="mailto:info@saitechnology.com"> <i
+								class="fa fa-envelope-o left"></i>info@saitechnology.com
+						</a></li>
+						<li><a> <i class="fa fa-phone left"></i>+1 408 727 1560
+						</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- End Footer Info -->
+		</div>
+		<hr />
+		<!-- Copyright Bar -->
+		<section class="copyright ptb-60">
+			<div class="container">
+				<p class="">
+					© 2016 <a href="index.html"> <b>SAI Technologies</b>
+					</a> . All Rights Reserved. <br /> Website Created by <a
+						target="_blank" href="http://www.crascent.com/"> <b>crascent</b>
+					</a>
+				</p>
+			</div>
+		</section>
+		<!-- End Copyright Bar -->
+	</footer>
+	<!-- END FOOTER -->
+	<!-- Scroll Top -->
+	<a class="scroll-top"> <i class="fa fa-angle-double-up"></i>
+	</a>
+	<!-- End Scroll Top -->
+	</div>
+	<!-- Site Wraper End -->
+	<!-- JS -->
+	<script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+	<script src="js/jquery-ui.min.js" type="text/javascript"></script>
+	<script src="js/plugin/jquery.easing.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/plugin/jquery.flexslider.js" type="text/javascript"></script>
+	<script src="js/plugin/background-check.min.js" type="text/javascript"></script>
+	<script src="js/plugin/jquery.fitvids.js" type="text/javascript"></script>
+	<script src="js/plugin/jquery.viewportchecker.js"
+		type="text/javascript"></script>
+	<script src="js/plugin/jquery.stellar.min.js" type="text/javascript"></script>
+	<script src="js/plugin/wow.min.js" type="text/javascript"></script>
+	<script src="js/plugin/jquery.colorbox-min.js" type="text/javascript"></script>
+	<script src="js/plugin/owl.carousel.min.js" type="text/javascript"></script>
+	<script src="js/plugin/isotope.pkgd.min.js" type="text/javascript"></script>
+	<script src="js/plugin/masonry.pkgd.min.js" type="text/javascript"></script>
+	<script src="js/plugin/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+	<script src="js/plugin/jPushMenu.js" type="text/javascript"></script>
+	<script src="js/plugin/jquery.fs.tipper.min.js" type="text/javascript"></script>
+	<script src="js/plugin/mediaelement-and-player.min.js"></script>
+	<script src="js/theme.js" type="text/javascript"></script>
+	<script src="js/navigation.js" type="text/javascript"></script>
+	<script>
+		$(function() {
+			$("#header").load("header.html");
+		});
+	</script>
+</body>
+</html>

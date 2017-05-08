@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Sai Technology</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="author" content="nileforest">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+<!-- Favicone Icon -->
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/favicon.png">
+<!-- CSS -->
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+<link href="css/ionicons.css" rel="stylesheet" type="text/css" />
+<link href="css/plugin/jPushMenu.css" rel="stylesheet" type="text/css" />
+<link href="css/plugin/animate.css" rel="stylesheet" type="text/css" />
+<link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="full-intro background--dark">
+	<!-- Preloader -->
+	<section id="preloader">
+		<div class="loader" id="loader">
+			<div class="loader-img"></div>
+		</div>
+	</section>
+	<!-- End Preloader -->
+	<!-- Sidemenu -->
+	<section
+		class="side-menu cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right">
+		<a class="menu-close toggle-menu menu-right push-body"> <i
+			class="ion ion-android-close"></i>
+		</a>
+		<h5 class="white">Sign In</h5>
+		<div class="sign-in">
+			<input class="input-sm form-full" type="email" aria-required="true"
+				id="email" name="email" placeholder="Email" value="" /> <input
+				class="input-sm form-full" type="password" aria-required="true"
+				id="password" name="password" placeholder="Password" value="" /> <input
+				type="submit" class="btn btn-md btn-color-b form-full"
+				value="Sign In" /> <a> New Customer? </a>
+		</div>
+		<ul>
+			<li><a target="_blank" href="index.html"> Main Demo Page </a></li>
+			<li><a href="index.html"> Home Default </a></li>
+			<li><a href="portfolio-grid-2col.html"> Portfolio </a></li>
+			<li><a href="login-register.html"> Login & Signup </a></li>
+			<li><a href="faq-1.html"> FAQ </a></li>
+			<li><a href="about-1.html"> About </a></li>
+			<li><a href="service-1.html"> Service </a></li>
+			<li><a href="blog-grid-3col.html"> Blog </a></li>
+			<li><a href="404-error-1.html"> 404 Error </a></li>
+			<li><a href="shop-checkout.html"> Shopping Cart </a></li>
+			<li><a href="contact-1.html"> Contact Us </a></li>
+		</ul>
+	</section>
+	<!--End Sidemenu -->
+	<!-- Search menu Top -->
+	<section
+		class=" top-search-bar cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top">
+		<div class="container">
+			<div class="search-wraper">
+				<input type="text" class="input-sm form-full"
+					placeholder="Search..." name="search" /> <a
+					class="search-bar-icon"> <i class="fa fa-search"></i>
+				</a> <a class="bar-close toggle-menu menu-top push-body"> <i
+					class="ion ion-android-close"></i>
+				</a>
+			</div>
+		</div>
+	</section>
+	<!--End Search menu Top -->
+	<!-- Site Wraper -->
+	<div class="wrapper">
+		<!-- HEADER -->
+		<header class="header">
+	<div class="container">
+		<!-- logo -->
+		<div class="logo">
+			<a href="index.html"> <img class="l-black"
+				src="img/logo-color.png" /> <img class="l-white"
+				src="img/logo-color.png" /> <img class="l-color"
+				src="img/logo-color.png" />
+			</a>
+		</div>
+		<!--End logo-->
+		<!-- Navigation Menu -->
+		<nav class='navigation'>
+			<ul>
+				<li><a href="company-overview.html"> COMPANY </a> <!-- Nav Dropdown -->
+					<ul class="nav-dropdown">
+						<li><a href='company-overview.html'> Company Overview </a></li>
+						<li><a href="board-members.html"> Board Members </a></li>
+						<li><a href="management-team.html"> Management </a></li>
+						<li><a href="careers.html"> Careers </a></li>
+					</ul> <!-- End Nav Dropdown --></li>
+				<li><a> PRODUCTS </a> <!-- Nav Dropdown -->
+							<ul class="nav-dropdown">
+								<li><a href="Communications.html"> CS-COMMUNICATIONS </a></li>
+								<li><a href='Video.html'> CS-VIDEO </a></li>
+								<li><a href="Storage.html"> CS-STORAGE </a></li>
+								<li><a href="Security.html"> CS-SECURITY </a></li>
+							</ul> <!-- End Nav Dropdown --></li>
+				<li><a> Solutions </a> <!-- Nav Dropdown -->
+					<ul class="nav-dropdown">
+						<li><a href='usecase-financial.html'> Financial</a></li>
+						<li><a href='usecase-healthcare.html'> Healthcare </a></li>
+						<li><a href='usecase-education.html'> Education </a></li>
+						<li><a href='usecase-publicsafety.html'> Public Safety </a></li>
+					</ul> <!-- End Nav Dropdown --></li>
+				<li><a href="partners.html"> Partners </a></li>
+				<li><a href='defence.html'> Defense </a> <!-- Nav Dropdown -->
+					<ul class="nav-dropdown">
+						<li><a href='defence-routers.html'> Routers </a> <!-- Sub Nav Dropdown -->
+							<ul class="nav-sub-dropdown">
+								<li><a href='defence-routers.html#4G LTE 11ac Eagle'>
+										4G LTE 11ac Eagle Enterprise Router </a></li>
+								<li><a href='defence-routers.html#LTE Eagle Industrial'>
+										LTE Eagle Industrial Router </a></li>
+								<li><a href='defence-routers.html#3G 4G LTE STINGER'>
+										3G 4G LTE STINGER </a></li>
+							</ul> <!-- End Sub Nav Dropdown --></li>
+						<li><a href='defence-m2m.html'> M2M </a> <!-- Nav Dropdown -->
+							<ul class="nav-sub-dropdown">
+								<li><a href='defence-m2m.html'> 3G 4G LTE Smart M2M
+										Router </a></li>
+							</ul></li>
+						<li><a href='defence-wifi.html'> Wi Fi </a> <!-- Nav Dropdown -->
+							<ul class="nav-sub-dropdown">
+								<li><a href='defence-wifi.html#WiFi'> Video
+										Distribution Device </a></li>
+								<li><a href='defence-wifi.html#WiFiBTS'> Wi Fi BTS /
+										Relay / CPE </a></li>
+							</ul></li>
+						<li><a href='defence-lte.html'> LTE </a></li>
+						<li><a href='defence-backhaul.html'> Backhaul </a> <!-- Nav Dropdown -->
+							<ul class="nav-sub-dropdown">
+								<li><a href='defence-backhaul.html#3G4G'> 3G 4G LTE
+										Backhaul </a></li>
+								<li><a href='defence-backhaul.html#3G Traffic'> 3G
+										Traffic Offload Device </a></li>
+							</ul></li>
+						<li><a href='defence-research-and-developement.html'>
+								Research and Development </a> <!-- Sub Nav Dropdown -->
+							<ul class="nav-sub-dropdown">
+								<li><a
+									href='defence-research-and-developement.html#4GAdvanced'>
+										4G LTE Advanced </a></li>
+								<li><a
+									href='defence-research-and-developement.html#802.11 AC'>
+										802.11 AC / AD / WiGiga </a></li>
+								<li><a
+									href='defence-research-and-developement.html#WirelessVideo'>
+										Wireless Video </a></li>
+
+								<li><a
+									href='defence-research-and-developement.html#WhitePapers'>
+										White Papers </a></li>
+							</ul></li>
+						<li><a href='defence-technology-and-licensing.html'>
+								Technology and Licensing </a>
+							<ul class="nav-sub-dropdown">
+								<li><a href='defence-technology-and-licensing.html#LTE_UE'>
+										LTE UE </a></li>
+								<li><a
+									href='defence-technology-and-licensing.html#LTE_ENodeB'>
+										LTE ENodeB </a></li>
+								<li><a href='defence-technology-and-licensing.html#LTE_EPC'>
+										LTE EPC </a></li>
+								<li><a href='defence-technology-and-licensing.html#LTE_Adv'>
+										LTE Advanced </a></li>
+							</ul></li>
+					</ul> <!-- End Nav Dropdown --></li>
+				<li><a href="contact.html"> CONTACT </a></li>
+			</ul>
+		</nav>
+		<!--End Navigation Menu -->
+	</div>
+</header>
+		<!-- END HEADER -->
+		<!-- CONTENT --------------------------------------------------------------------------------->
+		<!-- Intro Section -->
+		<section
+			class="inner-intro bg-img4 light-color overlay-dark parallax parallax-background2">
+			<div class="container">
+				<div class="row title">
+					<h2 class="h2">Defense</h2>
+				</div>
+			</div>
+		</section>
+		<div class="clearfix"></div>
+		<!-- End Intro Section -->
+		<!-- Blank Section -->
+		<section class="ptb ptb-sm-80">
+			<div class="container" id="4GAdvanced">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Research and Developement</h1>
+						<h2>
+							<strong>4G LTE Advanced</strong>
+						</h2>
+						<p>
+							<strong>Overview:</strong>
+						</p>
+						<p>The Long Term Evolution (LTE) standard defined by 3GPP is a
+							highly flexible radio interface that aims at bridging the gap
+							between 3G and 4G standards. LTE Release 8 specification was
+							completed in 2009 and triggered LTE service deployment by leading
+							mobile network operators. It has set various target requirements
+							to achieve higher system performance than HSPA in 3GPP Release 6.
+							It has improved system capacity, cell edge user throughput and
+							lower C/U plane latency, supported by introduction of new radio
+							interface technologies, such as OFDM, frequency domain scheduling
+							and MIMO. In the following year, LTE Release 9 has also been
+							completed to extend various functionalities in LTE Rel.8. The
+							area of enhancement includes closed subscriber group (CSG),
+							self-organizing network (SON), and new functionalities such as
+							location information service and MBMS (Multimedia Broadcast and
+							Multicast Service).</p>
+						<p>
+							<img src="./Sai%20Technology%20defense_files/RnD1.png">
+						</p>
+						<p>
+							<strong>LTE Advanced:</strong>
+						</p>
+						<p>To keep up with the today's rapidly growing traffic,
+							especially by the wide spread of smart phone devices, it became
+							necessary to achieve much higher level of system performance,
+							while keeping the backward compatibility. Accordingly, the radio
+							access interface specifications for LTE-Advanced has been
+							developed in 2011. LTE-Advanced (LTE Rel.10 and beyond) sets a
+							major important milestone in standardization where meets and
+							exceeds requirements set by IMT-Advanced for 4G (International
+							Mobile Telecommunications). The new requirements include spectral
+							efficiency, higher bandwidth, and lower latency. To meet these
+							competitive requirements, a series of new technologies have been
+							introduced into LTE-Advanced, such as Carrier Aggregation,
+							Enhanced MIMO, and CoMP (Coordinated multi-point
+							transmission/reception). LTE-Advanced will enable higher than
+							1Gbps downlink bandwidth in addition to the existing LTE service
+							and open a new era of true wireless broadband services in the
+							near future. LTE-Advanced services will become available from
+							leading mobile network operators around 2014. Additional features
+							include non-contiguous spectra usage to further enhance the
+							current LTE services.</p>
+						<p>
+							<img src="./Sai%20Technology%20defense_files/RnD2.png">
+						</p>
+						<p>SAI Technology has been heavily engaged in LTE product
+							development from the early stages of LTE standards. SAI has
+							demonstrated complete end to end system solutions for eNodeB and
+							UE for LTE-Release 8 and 9. SAI is developing LTE advancements to
+							fulfill new and future generations of LTE products. SAI is
+							committed to delivery of LTE Advanced (Release 10 and beyond)
+							products by March 2012.</p>
+					</div>
+				</div>
+			</div>
+			<div class="container" id="802.11 AC">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>802.11 AC / AD / WiGiga</h2>
+						<p>
+							<strong>Overview:</strong>
+						</p>
+						<p>In 2009, 802.11n was ratified. It provides for up to 4x4
+							MIMO (Single user) along with wider bandwidths and a number of
+							MAC layer improvements leading to a peak theoretical throughput
+							in the order of 600 Mbps. Since the ratification of 802.11n, a
+							new task group (TGac) has begun working on the next standard for
+							even higher throughput within &lt;6GHz spectrum. A closely
+							coupled task group (TGad) is looking at very high throughput for
+							spectrum &gt;6Ghz (such as the 60 Ghz ISM band).</p>
+						<p>The IEEE 802.11ac Task Group (TG) has beendeveloping
+							amendment to IEEE 802.11 having PHY (Physical layer) as well as
+							MAC (Medium Access Control sub layer) enhancements.&nbsp; These
+							are the following goals for designing the IEEE 802.11ac
+							amendment.</p>
+						<p>&bull; Backward compatibility with IEEE 802.11a and IEEE
+							802.11n operated in 5GHz.</p>
+						<p>&bull; Single STA throughput: 802.11ac STA shall be capable
+							of getting throughput up to 500Mbps.</p>
+						<p>&bull; Multi-STA throughput: The aggregate throughput when
+							802.11ac system has multiple STAs connected should be greater
+							than or equal to 1Gbps.</p>
+						<p>New features in this standard are the bandwidths of 80 MHz
+							and 160 MHz (11n offered only 40 MHz), 256QAM, up to eight
+							antennas and multi-user MIMO.Gross data rates of 293 Mbit/s are
+							possible with only 80 MHz bandwidth, one antenna and 64QAM 5/6;
+							all 802.11ac devices must support this mode. Optional modes using
+							256QAM and eight antennas under optimal conditions permit gross
+							data rates of 3.5 Gbit/s. 802.11ac is designed only for
+							license-free 5 GHz bands and will no longer include the 2.4 GHz
+							industrial scientific medical (ISM) band previously used
+							primarily for WLANs.</p>
+						<p>For details on the exact extensions in the PHY layer, see
+							our whitepaper on 802.11ac PHY extensions.</p>
+						<p>SAI is developing 802.11ac PHY and MAC layer stacks, as
+							well as system solutions with particular emphasis on MU-MIMO high
+							performance implementation. This work is in collaboration with
+							leading silicon and SoC vendors for 802.11ac.&nbsp;</p>
+						<p>04/01/13: SAI Eagle 4G LTE Cloud Wireless Broadband Router
+							[Enterprise Class]</p>
+						<p>
+							<img src="./Sai%20Technology%20defense_files/RnD3.png">
+						</p>
+						<p>Concurrent with the802.11ac developments, a number of
+							industry groups are looking at the ISM band at 60 Ghz (typically
+							57-66 Ghz) as the next frontier for WLANs. Clearly, such a high
+							center frequency (mm wave) comes with a number of challenges
+							including</p>
+						<ul>
+							<li>Limited range, due to the proximity of the oxygen
+								absorption band</li>
+							<li>Implementation cost and high power consumption</li>
+						</ul>
+						<p>MIMO techniques are helping overcome at least some of the
+							range issue, and a 32x32 antenna array can be easily implemented
+							on a CMOS process. Thus, as these hurdles are overcome the 60
+							Ghzband promises even higher data rates &ndash; up to 7 Gbps.</p>
+						<p>The IEEE 802.11ad standard adds a mm wave operating mode to
+							the 802.11n with a mmSTA being a station that is capable of mm
+							wave operations. Although the base protocol is an extension of
+							802.11n and 802.11ac, a number of mmWave mode specific packets
+							and formats have been defined in this standard(for e.g., mmWave
+							CTS). In addition, upto 5 bits are reserved for defining the
+							number of beams, thus permitting as many as 32 beams.</p>
+						<p>Due to the strong dependence on beamforming, considerable
+							effort is going into refining the beam forming procedures and
+							transactions within the 802.11ad standard. Similarly the large
+							number of receive and transmit chains required for such a system
+							are pushing the standards committee to refine the power
+							management techniques used in 802.11n/ac. MIMO for reducing power
+							consumption and turning off some of these chains when not
+							required without affecting network latency and performance.</p>
+						<p>This standard is in draft and still being developed,
+							although initial silicon is available from a select set of
+							companies.</p>
+						<p>Besides the 802.11ad standard, a few other standards are
+							being pursued for the 60 Ghz ISM band.</p>
+						<p>SAI is working with leading 60 GHz chip vendors for
+							802.11ad implementation on CMOS platforms. This work clearly
+							leverages SAI&rsquo;s work on 802.11ac with a focus on high
+							performance and low power solutions.</p>
+						<p>
+							<strong>WiGig</strong>
+						</p>
+						<p>The WiGig specification was contributed to the IEEE
+							802.11ad standardization process, and was confirmed in May 2010
+							as the basis for the 802.11ad draft standard.</p>
+					</div>
+				</div>
+			</div>
+			<div class="container" id="WirelessVideo">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>
+							<strong>Wireless Video </strong>
+						</h2>
+						<p>
+							<strong>Overview:</strong>
+						</p>
+						<p>In parallel with the 802.11 stream of standards, there has
+							been a steady march of Wireless personal area networks towards
+							the 60 Ghz ISM band as well. In particular the requirements of
+							being able to develop a wireless video area network for full HD
+							resolution leads towards similarly high data rate requirements.</p>
+						<p>The latest Wireless HD 1.1 standard aims for</p>
+						<ul>
+							<li>Stream uncompressed audio and video up to Quad Full HD
+								(QFHD) resolution,</li>
+							<li>48 bit color and 240 Hz refresh rates</li>
+							<li>Support for 3D video formats</li>
+							<li>Efficient data networking using IP</li>
+							<li>Flexible wireless connectivity using USB bridging</li>
+							<li>Simple, fast file transfer with OBEX.</li>
+							<li>Low rate PHY (2.5-40 Mb/s) for omni-directional control
+								and discovery</li>
+							<li>Medium-rate PHY (0.5-2 Gb/s) for low power, mobile
+								applications and lowcomplexityuniversal bi-directional data
+								support</li>
+							<li>High-rate PHY (1-7 Gb/s) for high quality, full
+								resolution video</li>
+							<li>Improved coverage and higher data rates (in excess of 28
+								Gb/s) through the use of</li>
+							<li>The spatial multiplexing high rate PHY (SM-HRP) option</li>
+							<li>Video coding to improve link robustness</li>
+							<li>HDCP 2.0 in addition to DTCP content protection support</li>
+						</ul>
+						<p>SAI has completed significant work in video streaming on
+							existing protocols &ndash; WiMax, LTE as well as 802.11 in their
+							various forms (802.16e, 802.16d, 3G,LTE Rel 9 as well as
+							802.11g/n/ac). SAI is extending such video streaming work into
+							the Wireless High Definition technologies and markets for high
+							performance full resolution video.</p>
+					</div>
+				</div>
+			</div>
+			<div class="container" id="WhitePapers">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>
+							<strong>White Papers </strong>
+						</h2>
+						<p>
+							<strong>LTE Advanced</strong>
+						</p>
+						<p>This paper addresses the performance targets and the
+							technology components being studied by 3GPP for LTE Advanced. The
+							high level targets of LTE-Advanced are to meet or exceed the
+							IMT-Advanced requirements set by ITU-R. A short history of the
+							LTE standard is offered, along with a discussion of its standards
+							and performance. The technology components considered for
+							LTE-Advanced include extended spectrum flexibility to support up
+							to 100MHz bandwidth, enhanced multi-antenna solutions with up to
+							eight layer transmission in the downlink and up to four layer
+							transmission in the uplink, coordinated multi-point
+							transmission/reception, the use of advanced relaying and
+							heterogeneous network deployments.</p>
+						<p>Download LTE-Advanced White Paper PDF</p>
+						<p>Joint ITU-GISFI Workshop on</p>
+						<p>&ldquo;Bridging the Standardization Gap: Workshop on
+							Sustainable Rural Communications&rdquo;</p>
+						<p>(Bangalore, India, 17-18 December 2012)</p>
+						<p>LTE Advanced eNB Small Cell System</p>
+						<p>Design Challenges Network Topologies and Applications</p>
+						<p>By: Dr Venkat Rayapati,</p>
+						<p>President &amp;CEO,</p>
+						<p>Download LTE-Advanced Small Cell Systems Presentation PDF</p>
+						<p>LighReading Webinar</p>
+						<p>Scale Solutions Across Mobile Networks</p>
+						<p>Sponsored by Avago Technologies</p>
+						<p>June - 2014</p>
+						<p>By: Dr Venkat Rayapati,</p>
+						<p>President &amp; CEO of SAI Technology Inc.</p>
+						<p>and</p>
+						<p>Raghu Kondapalli</p>
+						<p>Director of Technology,</p>
+						<p>Strategic Planning &amp; Solution</p>
+						<p>Architecture, Network Solutions</p>
+						<p>Group, Avago Technologies</p>
+						<p>Download LTE-Advanced Small Cell Systems Presentation PDF</p>
+						<p>Just added--</p>
+						<p>Video: SAI Technology presents LTE Mobile Software Defined
+							Networks and Applications</p>
+						<p>
+							<strong>Videos</strong>
+						</p>
+						<p>
+							<iframe width="560" height="315"
+								src="https://www.youtube.com/embed/iKPBZMFRri0" frameborder="0"
+								allowfullscreen></iframe>
+						</p>
+						<p>Video: SAI Techonology's CEO Dr. Venkat Rayapati presenting
+							material at Mobile World Congress 2014, Barcelona, Spain.</p>
+						<p>SAI worked with LSI to showcase their AXXIA 5500 processor
+							and demonstrate an architecture that will provide an optimized
+							LTE and Wi-Fi solution for enterprise networks.</p>
+						<p>
+							<iframe width="560" height="315"
+								src="https://www.youtube.com/embed/vvVQOmyc3ng" frameborder="0"
+								allowfullscreen></iframe>
+						</p>
+						<p>Video: Multi-threaded LTE UE Baseband Solution from MIPS
+							and SAI Technologies.</p>
+						<p>Presentation Material based on a collaboration demo
+							presented at Mobile World Congress 2013 in Barcelona, Spain.</p>
+						<p>This video shows SAI Technology's CEO Dr. Venkat Rayapati
+							demonstrating LTE in the lab located at SAI Technology, Santa
+							Clara, CA</p>
+						<p>
+							<iframe width="560" height="315"
+								src="https://www.youtube.com/embed/54uFZCkNtRY" frameborder="0"
+								allowfullscreen></iframe>
+						</p>
+						<p>Videos: SAI STINGER - How to connect using a wired LAN
+							cable</p>
+						<p>
+							<iframe width="560" height="315"
+								src="https://www.youtube.com/embed/twECNXE5WA" frameborder="0"
+								allowfullscreen></iframe>
+						</p>
+						<p>
+							<strong>Router Videos</strong>
+						</p>
+						<p>Videos: SAI STINGER - How to connect wirelessly</p>
+						<p>
+							<iframe width="560" height="315"
+								src="https://www.youtube.com/embed/nHVlELrp6ko" frameborder="0"
+								allowfullscreen></iframe>
+						</p>
+						<p>Videos: SAI M2M Smart Edge- How to connect and configure
+							the M2M product wirelessly</p>
+						<p>
+							<iframe width="560" height="315"
+								src="https://www.youtube.com/embed/2zbIXQqS0s0" frameborder="0"
+								allowfullscreen></iframe>
+						</p>
+					</div>
+				</div>
+			</div>
+	</div>
+	<div>
+
+
+		<!-- End Blank Section -->
+		<!-- End CONTENT ------------------------------------------------------------------------------>
+		<!-- FOOTER -->
+		<footer class="footer pt-80">
+			<div class="container">
+				<!--Footer Info -->
+				<div class="row footer-info">
+					<div class="col-md-3 col-sm-6 col-xs-12 mb-sm-30 mb-xs-0">
+						<ul class="link">
+							<li><a href="company-overview.html"> COMPANY </a></li>
+							<li><a href="products.html"> PRODUCTS </a></li>
+							<li><a href="solutions.html"> SOLUTIONS </a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 mb-sm-30">
+						<ul class="link">
+							<li><a href="partners.html">Partners </a></li>
+							<li><a href="careers.html"> CAREER </a></li>
+							<li><a href="contact.html"> CONTACT </a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-12 col-xs-12">
+						<p>
+							<a class="footer-logo" href="index.html"> <img
+								src="img/logo-footer.png" />
+							</a>
+						</p>
+						<p>2376, Walsh Avenue, Santa Clara, California,USA.</p>
+					</div>
+					<div class="col-md-3 col-sm-12 col-xs-12">
+						<ul class="link-small">
+							<li><a href="mailto:info@saitechnology.com"> <i
+									class="fa fa-envelope-o left"></i>info@saitechnology.com
+							</a></li>
+							<li><a> <i class="fa fa-phone left"></i>+1 408 727 1560
+							</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- End Footer Info -->
+			</div>
+			<hr />
+			<!-- Copyright Bar -->
+			<section class="copyright ptb-60">
+				<div class="container">
+					<p class="">
+						� 2016 <a href="index.html"> <b>SAI Technologies</b>
+						</a> . All Rights Reserved. <br /> Website Created by <a
+							target="_blank" href="http://www.crascent.com/"> <b>crascent</b>
+						</a>
+					</p>
+				</div>
+			</section>
+			<!-- End Copyright Bar -->
+		</footer>
+		<!-- END FOOTER -->
+		<!-- Scroll Top -->
+		<a class="scroll-top"> <i class="fa fa-angle-double-up"></i>
+		</a>
+		<!-- End Scroll Top -->
+	</div>
+	<!-- Site Wraper End -->
+	<!-- JS -->
+	<script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+	<script src="js/jquery-ui.min.js" type="text/javascript"></script>
+	<script src="js/plugin/jquery.easing.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/plugin/jquery.flexslider.js" type="text/javascript"></script>
+	<script src="js/plugin/background-check.min.js" type="text/javascript"></script>
+	<script src="js/plugin/jquery.fitvids.js" type="text/javascript"></script>
+	<script src="js/plugin/jquery.viewportchecker.js"
+		type="text/javascript"></script>
+	<script src="js/plugin/jquery.stellar.min.js" type="text/javascript"></script>
+	<script src="js/plugin/wow.min.js" type="text/javascript"></script>
+	<script src="js/plugin/jquery.colorbox-min.js" type="text/javascript"></script>
+	<script src="js/plugin/owl.carousel.min.js" type="text/javascript"></script>
+	<script src="js/plugin/isotope.pkgd.min.js" type="text/javascript"></script>
+	<script src="js/plugin/masonry.pkgd.min.js" type="text/javascript"></script>
+	<script src="js/plugin/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+	<script src="js/plugin/jPushMenu.js" type="text/javascript"></script>
+	<script src="js/plugin/jquery.fs.tipper.min.js" type="text/javascript"></script>
+	<script src="js/plugin/mediaelement-and-player.min.js"></script>
+	<script src="js/theme.js" type="text/javascript"></script>
+	<script src="js/navigation.js" type="text/javascript"></script>
+	<script>
+		$(function() {
+			$("#header").load("header.html");
+		});
+	</script>
+</body>
+</html>

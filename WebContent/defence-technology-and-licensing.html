@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Sai Technology</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="author" content="nileforest">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+<!-- Favicone Icon -->
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/favicon.png">
+<!-- CSS -->
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+<link href="css/ionicons.css" rel="stylesheet" type="text/css" />
+<link href="css/plugin/jPushMenu.css" rel="stylesheet" type="text/css" />
+<link href="css/plugin/animate.css" rel="stylesheet" type="text/css" />
+<link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="full-intro background--dark">
+	<!-- Preloader -->
+	<section id="preloader">
+		<div class="loader" id="loader">
+			<div class="loader-img"></div>
+		</div>
+	</section>
+	<!-- End Preloader -->
+	<!-- Sidemenu -->
+	<section
+		class="side-menu cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right">
+		<a class="menu-close toggle-menu menu-right push-body"> <i
+			class="ion ion-android-close"></i>
+		</a>
+		<h5 class="white">Sign In</h5>
+		<div class="sign-in">
+			<input class="input-sm form-full" type="email" aria-required="true"
+				id="email" name="email" placeholder="Email" value="" /> <input
+				class="input-sm form-full" type="password" aria-required="true"
+				id="password" name="password" placeholder="Password" value="" /> <input
+				type="submit" class="btn btn-md btn-color-b form-full"
+				value="Sign In" /> <a> New Customer? </a>
+		</div>
+		<ul>
+			<li><a target="_blank" href="index.html"> Main Demo Page </a></li>
+			<li><a href="index.html"> Home Default </a></li>
+			<li><a href="portfolio-grid-2col.html"> Portfolio </a></li>
+			<li><a href="login-register.html"> Login & Signup </a></li>
+			<li><a href="faq-1.html"> FAQ </a></li>
+			<li><a href="about-1.html"> About </a></li>
+			<li><a href="service-1.html"> Service </a></li>
+			<li><a href="blog-grid-3col.html"> Blog </a></li>
+			<li><a href="404-error-1.html"> 404 Error </a></li>
+			<li><a href="shop-checkout.html"> Shopping Cart </a></li>
+			<li><a href="contact-1.html"> Contact Us </a></li>
+		</ul>
+	</section>
+	<!--End Sidemenu -->
+	<!-- Search menu Top -->
+	<section
+		class=" top-search-bar cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top">
+		<div class="container">
+			<div class="search-wraper">
+				<input type="text" class="input-sm form-full"
+					placeholder="Search..." name="search" /> <a
+					class="search-bar-icon"> <i class="fa fa-search"></i>
+				</a> <a class="bar-close toggle-menu menu-top push-body"> <i
+					class="ion ion-android-close"></i>
+				</a>
+			</div>
+		</div>
+	</section>
+	<!--End Search menu Top -->
+	<!-- Site Wraper -->
+	<div class="wrapper">
+		<!-- HEADER -->
+		<header class="header">
+	<div class="container">
+		<!-- logo -->
+		<div class="logo">
+			<a href="index.html"> <img class="l-black"
+				src="img/logo-color.png" /> <img class="l-white"
+				src="img/logo-color.png" /> <img class="l-color"
+				src="img/logo-color.png" />
+			</a>
+		</div>
+		<!--End logo-->
+		<!-- Navigation Menu -->
+		<nav class='navigation'>
+			<ul>
+				<li><a href="company-overview.html"> COMPANY </a> <!-- Nav Dropdown -->
+					<ul class="nav-dropdown">
+						<li><a href='company-overview.html'> Company Overview </a></li>
+						<li><a href="board-members.html"> Board Members </a></li>
+						<li><a href="management-team.html"> Management </a></li>
+						<li><a href="careers.html"> Careers </a></li>
+					</ul> <!-- End Nav Dropdown --></li>
+				<li><a> PRODUCTS </a> <!-- Nav Dropdown -->
+							<ul class="nav-dropdown">
+								<li><a href="Communications.html"> CS-COMMUNICATIONS </a></li>
+								<li><a href='Video.html'> CS-VIDEO </a></li>
+								<li><a href="Storage.html"> CS-STORAGE </a></li>
+								<li><a href="Security.html"> CS-SECURITY </a></li>
+							</ul> <!-- End Nav Dropdown --></li>
+				<li><a> Solutions </a> <!-- Nav Dropdown -->
+					<ul class="nav-dropdown">
+						<li><a href='usecase-financial.html'> Financial</a></li>
+						<li><a href='usecase-healthcare.html'> Healthcare </a></li>
+						<li><a href='usecase-education.html'> Education </a></li>
+						<li><a href='usecase-publicsafety.html'> Public Safety </a></li>
+					</ul> <!-- End Nav Dropdown --></li>
+				<li><a href="partners.html"> Partners </a></li>
+				<li><a href='defence.html'> Defense </a> <!-- Nav Dropdown -->
+					<ul class="nav-dropdown">
+						<li><a href='defence-routers.html'> Routers </a> <!-- Sub Nav Dropdown -->
+							<ul class="nav-sub-dropdown">
+								<li><a href='defence-routers.html#4G LTE 11ac Eagle'>
+										4G LTE 11ac Eagle Enterprise Router </a></li>
+								<li><a href='defence-routers.html#LTE Eagle Industrial'>
+										LTE Eagle Industrial Router </a></li>
+								<li><a href='defence-routers.html#3G 4G LTE STINGER'>
+										3G 4G LTE STINGER </a></li>
+							</ul> <!-- End Sub Nav Dropdown --></li>
+						<li><a href='defence-m2m.html'> M2M </a> <!-- Nav Dropdown -->
+							<ul class="nav-sub-dropdown">
+								<li><a href='defence-m2m.html'> 3G 4G LTE Smart M2M
+										Router </a></li>
+							</ul></li>
+						<li><a href='defence-wifi.html'> Wi Fi </a> <!-- Nav Dropdown -->
+							<ul class="nav-sub-dropdown">
+								<li><a href='defence-wifi.html#WiFi'> Video
+										Distribution Device </a></li>
+								<li><a href='defence-wifi.html#WiFiBTS'> Wi Fi BTS /
+										Relay / CPE </a></li>
+							</ul></li>
+						<li><a href='defence-lte.html'> LTE </a></li>
+						<li><a href='defence-backhaul.html'> Backhaul </a> <!-- Nav Dropdown -->
+							<ul class="nav-sub-dropdown">
+								<li><a href='defence-backhaul.html#3G4G'> 3G 4G LTE
+										Backhaul </a></li>
+								<li><a href='defence-backhaul.html#3G Traffic'> 3G
+										Traffic Offload Device </a></li>
+							</ul></li>
+						<li><a href='defence-research-and-developement.html'>
+								Research and Development </a> <!-- Sub Nav Dropdown -->
+							<ul class="nav-sub-dropdown">
+								<li><a
+									href='defence-research-and-developement.html#4GAdvanced'>
+										4G LTE Advanced </a></li>
+								<li><a
+									href='defence-research-and-developement.html#802.11 AC'>
+										802.11 AC / AD / WiGiga </a></li>
+								<li><a
+									href='defence-research-and-developement.html#WirelessVideo'>
+										Wireless Video </a></li>
+
+								<li><a
+									href='defence-research-and-developement.html#WhitePapers'>
+										White Papers </a></li>
+							</ul></li>
+						<li><a href='defence-technology-and-licensing.html'>
+								Technology and Licensing </a>
+							<ul class="nav-sub-dropdown">
+								<li><a href='defence-technology-and-licensing.html#LTE_UE'>
+										LTE UE </a></li>
+								<li><a
+									href='defence-technology-and-licensing.html#LTE_ENodeB'>
+										LTE ENodeB </a></li>
+								<li><a href='defence-technology-and-licensing.html#LTE_EPC'>
+										LTE EPC </a></li>
+								<li><a href='defence-technology-and-licensing.html#LTE_Adv'>
+										LTE Advanced </a></li>
+							</ul></li>
+					</ul> <!-- End Nav Dropdown --></li>
+				<li><a href="contact.html"> CONTACT </a></li>
+			</ul>
+		</nav>
+		<!--End Navigation Menu -->
+	</div>
+</header>
+		<!-- END HEADER -->
+		<!-- CONTENT --------------------------------------------------------------------------------->
+		<!-- Intro Section -->
+		<section
+			class="inner-intro bg-img4 light-color overlay-dark parallax parallax-background2">
+			<div class="container">
+				<div class="row title">
+					<h2 class="h2">Defense</h2>
+				</div>
+			</div>
+		</section>
+		<div class="clearfix"></div>
+		<!-- End Intro Section -->
+		<!-- Blank Section -->
+		<section class="ptb ptb-sm-80">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>
+							<strong>Technology Licensing </strong>
+						</h1>
+						<h2>
+							<strong>LTE System Solutions </strong>
+						</h2>
+						<p>The overall EPS network architecture, including the network
+							elements and the standardized interfaces is comprised of the EPC
+							and the access network E-UTRAN. While the EPC consists of many
+							logical nodes, the access network is made up of essentially just
+							one node, the evolved NodeB (eNodeB), which connects to the UEs.
+							Each of these network elements is interconnected by means of
+							interfaces that are standardized in order to allow multi-vendor
+							interoperability.</p>
+						<p>The functional split between the EPC and E-UTRAN is shown.</p>
+						<p>
+							<strong>LTE EPS Network Elements are:</strong>
+						</p>
+						<ul>
+							<li>UE</li>
+							<li>eNodeB</li>
+							<li>MME</li>
+							<li>S-GW</li>
+							<li>P-GW</li>
+						</ul>
+						<p>
+							<img src="./Sai%20Technology%20defense_files/TL1.png">
+						</p>
+						<p>
+							<strong>LTE Protocol Architecture:</strong>
+						</p>
+						<ul>
+							<li>E-UTRAN</li>
+							<li>EPC</li>
+						</ul>
+						<p>
+							<img src="./Sai%20Technology%20defense_files/TL2.png">
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="container" id="LTE_UE">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>
+							<strong>LTE UE</strong>
+						</h2>
+						<p>LTE UE is partitioned into following categories:</p>
+						<ul>
+							<li>Radio,</li>
+							<li>Physical Layer (PHY)</li>
+							<li>Protocol Stack &amp; Applications</li>
+						</ul>
+						<p>
+							<img src="./Sai%20Technology%20defense_files/TL3.png">
+						</p>
+						<p>SAI provides full end to end solution for UE PHY and
+							Protocol Stack in combination with any third party radio. The
+							solution complies fully with 3GPP LTE Release 8 and Release 9.
+							SAI is also developing a complete compliant solution for LTE
+							Advanced (Release 10 &amp; beyond) with expected delivery in
+							March, 2012.</p>
+						<p>
+							<strong>UE PHY </strong>
+						</p>
+						<p>
+							<strong>UE PHY Highlights</strong>
+						</p>
+						<ul>
+							<li>OFDMA in DL and SC-FDMA in UL</li>
+							<li>Duplexing schemes; full/half duplex FDD, and TDD</li>
+							<li>Scalable channel bandwidth up to 20 MHz and higher
+								bandwidths of 40 MHz to 100 MHz with LTE Advanced</li>
+							<li>MIMO processing with 2x2 UL and 4x4 DL antennas with
+								layering and pre-coding options</li>
+							<li>Adaptive modulation and coding, QPSK, 16QAM, and 64QAM
+								for DL. QPSK and 16QAM for UL</li>
+							<li>Two frame structures: Type-1 shared by both full- and
+								half-duplex FDD, Type-2 applicable to TDD</li>
+							<li>Turbo code</li>
+						</ul>
+						<p>
+							<strong>UE PHY Functional Block Diagram</strong>
+						</p>
+						<p>
+							<img src="./Sai%20Technology%20defense_files/TL4.png">
+						</p>
+						<p>
+							<strong>UE PHY Deliverables</strong>
+						</p>
+						<ul>
+							<li>Matlab IP source code</li>
+							<li>C/ DSP IP source code</li>
+							<li>DSP based implementation</li>
+							<li>FPGA based implementation Verilog/VHDL</li>
+							<li>Test Bench/Test Vector</li>
+							<li>Software reference design document</li>
+							<li>Protocol test tool code</li>
+							<li>Complete reference design kit</li>
+							<li>User manual</li>
+						</ul>
+						<p>
+							<strong>UE Protocol Stack</strong>
+						</p>
+						<p>LTE Protocol Stack is implemented for User Equipment (UE)
+							terminals compliant to the 3GPP Release 8 as well as Release 9
+							specifications. It consists of a fully optimized Layer 2, Layer 3
+							and NAS LTE protocol software enabling the highest uplink and
+							downlink data rates. This module has been integrated &amp;
+							validated with IOT in multiple third party commercial processors
+							and solutions.</p>
+						<p>The architecture is designed to be scalable and portable to
+							different hardware platforms and operating systems with optimum
+							processor utilization &amp; low memory footprint. The LTE
+							protocol stack is fully supported by a suite of advanced
+							development, test and verification tools to enable rapid product
+							development. SAI also provides dedicated support and
+							customization services to assist with porting, integration and
+							end-to-end LTE system verification from lab tests to field
+							trials.</p>
+						<p>
+							<strong>UE Protocol Stack Highlights</strong>
+						</p>
+						<ul>
+							<li>Conformance to 3GPP standards through integration and
+								validation with different systems as well as inter-operability
+								with various infrastructure vendors</li>
+							<li>Adaptable future-proof design to support continuously
+								evolving standards towards LTE advanced (LTE Release 10 and
+								beyond)</li>
+							<li>Supports maximum LTE data rates</li>
+							<li>Scalable and portable to integrate with different
+								embedded hardware platforms and operating systems</li>
+							<li>Designed to meet optimum memory and performance
+								requirements</li>
+							<li>Comprehensive set of debug trace and statistical logging
+								tools supported</li>
+							<li>Supported OS are: Linux , Android, WinCE, VxWorks,
+								Nucleus and can be customized to customer&rsquo;s specific RTOS</li>
+						</ul>
+						<p>
+							<img src="./Sai%20Technology%20defense_files/TL5.png">
+						</p>
+						<p>
+							<strong>LTE Layer- 2</strong>
+						</p>
+						<p>Layer-2 software consists of the LTE MAC, RLC and PDCP
+							protocol sub-layers. Key features are:</p>
+						<ul>
+							<li>MAC &ndash; All LTE transport channels with optional
+								MBMS</li>
+							<li>RLC &ndash; UM, TM, AM modes</li>
+							<li>PDCP &ndash; Ciphering, integrity protection and ROHC v1
+								and upgraded ROHC v2</li>
+						</ul>
+						<p>
+							<strong>LTE Layer- 3</strong>
+						</p>
+						<p>The LTE Layer 3 software comprises of the Radio Resource
+							Control (RRC) protocol. The LTE RRC layer provides broadcast of
+							system information; configures the RLC, MAC and PDCP layers;
+							carries out mobility functions and QoS management functions. Key
+							features are:</p>
+						<ul>
+							<li>System information handling</li>
+							<li>Paging</li>
+							<li>Measurements and cell reselection</li>
+							<li>Handover</li>
+							<li>RRC security and integrity</li>
+						</ul>
+						<p>
+							<img src="./Sai%20Technology%20defense_files/TL6.png">
+						</p>
+						<p>
+							<strong>LTE Non Access Stratum ( NAS )</strong>
+						</p>
+						<p>The LTE NAS protocol software enables communication with
+							the MME in the LTE core network and handles functions of mobility
+							management and session management. Key features are</p>
+						<ul>
+							<li>Security</li>
+							<li>LTE SIM</li>
+							<li>AT command handling</li>
+							<li>Call control</li>
+							<li>Mobility management</li>
+						</ul>
+						<p>
+							<strong>UE Protocol Stack Deliverables</strong>
+						</p>
+						<ul>
+							<li>Binary or ANSI C source code for core protocol
+								components</li>
+							<li>OS abstraction layer for target RTOS/platform</li>
+							<li>Fully documented APIs with user manuals</li>
+							<li>Continuous update of functionality based on the latest
+								3GPP LTE Standards (towards LTE Advanced , Release 10 and
+								beyond)</li>
+							<li>Product customization support for both remote and
+								on-site</li>
+							<li>Complete solution in reference platform</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="container" id="LTE_ENodeB">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>
+							<strong>LTE ENodeB</strong>
+						</h2>
+						<p>LTE ENodeB is partitioned into following categories</p>
+						<ul>
+							<li>Radio</li>
+							<li>Physical Layer (PHY)</li>
+							<li>Protocol Stack &amp; Applications</li>
+							<li>Customizable Digital Frontend</li>
+						</ul>
+						<p>
+							<img src="./Sai%20Technology%20defense_files/TL7.png">
+						</p>
+						<p>SAI provides full end to end solution for eNodeB PHY and
+							Protocol Stack in combination with any third party radio. The
+							solution complies fully with 3GPP LTE Release 8 and Release 9.
+							SAI is also developing a complete compliant solution for LTE
+							Advanced (Release 10 &amp; beyond) available by March, 2012.</p>
+						<p>
+							<strong>ENode PHY</strong>
+						</p>
+						<p>
+							<strong>ENode PHY Highlights</strong>
+						</p>
+						<ul>
+							<li>OFDMA in DL and SC-FDMA in UL</li>
+							<li>Duplexing schemes; full/half duplex FDD, and TDD</li>
+							<li>Scalable channel bandwidth up to 20 MHz and higher
+								bandwidths of 40 MHz to 100 MHz with LTE Advanced</li>
+							<li>MIMO processing with 2x2 UL and 4x4 DL antennas with
+								layering and pre-coding options &amp; higher MIMO configurations
+								up to 8x8 in LTE Advanced</li>
+							<li>Adaptive modulation and coding, QPSK, 16QAM, and 64QAM
+								for DL</li>
+							<li>Two frame structures: Type-1 shared by both full- and
+								half-duplex FDD, Type-2 applicable to TDD Turbo code</li>
+						</ul>
+						<p>
+							<strong>ENode PHY Functional Block Diagram</strong>
+						</p>
+						<p>
+							<img src="./Sai%20Technology%20defense_files/TL8.png">
+						</p>
+						<p>
+							<strong>ENode PHY Deliverables</strong>
+						</p>
+						<ul>
+							<li>Matlab IP source code</li>
+							<li>C/ DSP IP source code</li>
+							<li>DSP based implementation</li>
+							<li>FPGA based implementation Verilog/VHDL</li>
+							<li>Test Bench/Test Vector</li>
+							<li>Software reference design document</li>
+							<li>Protocol test tool code</li>
+							<li>Complete reference design kit</li>
+							<li>User manual</li>
+						</ul>
+						<p>
+							<strong>ENode Protocol Stack</strong>
+						</p>
+						<ul>
+							<li>Conformance to 3GPP standards through integration and
+								validation with different systems as well as inter-operability
+								with leading infrastructure vendors</li>
+							<li>Adaptable future-proof design to support continuously
+								evolving standards towards LTE-Advanced (LTE Release 10 and
+								beyond)</li>
+							<li>Supports highest UE category (maximum LTE data rates)</li>
+							<li>Scalable and portable to integrate with different
+								embedded hardware platforms and operating systems</li>
+							<li>Designed to meet optimum memory and performance
+								requirements</li>
+							<li>Comprehensive set of debug trace and statistical logging
+								tools supported</li>
+							<li>Supported OS are: Linux , Android, WinCE, VxWorks,
+								Nucleus and also can be customized to customer&rsquo;s specific
+								RTOS&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+								&nbsp; &nbsp;&nbsp;</li>
+						</ul>
+						<p>
+							<img src="./Sai%20Technology%20defense_files/TL9.png">
+						</p>
+						<p>
+							<strong>LTE Layer 2 </strong>
+						</p>
+						<p>Layer-2 software consists of the comprehensive
+							implementation of the LTE MAC, RLC and PDCP protocol sub-layers.
+							Key features are:</p>
+						<ul>
+							<li>MAC &ndash; All LTE transport channels with optional
+								MBMS</li>
+							<li>RLC &ndash; UM, TM, AM modes</li>
+							<li>PDCP &ndash; Ciphering, integrity protection and ROHC v1
+								and upgraded ROHC v2</li>
+						</ul>
+						<p>
+							<strong>LTE Layer 3</strong>
+						</p>
+						<p>The LTE Layer 3 software comprises of the Radio Resource
+							Control (RRC) protocol. The LTE RRC layer provides broadcast of
+							system information; configures the RLC, MAC and PDCP layers;
+							carries out mobility functions and QoS management functions. Key
+							features are:</p>
+						<ul>
+							<li>System information handling</li>
+							<li>Paging</li>
+							<li>Measurements and cell reselection</li>
+							<li>Handover</li>
+							<li>RRC security and integrity</li>
+						</ul>
+						<p>
+							<strong>Radio Resource Management (RRM)</strong>
+						</p>
+						<p>Radio resource management (RRM) &ndash; This covers all
+							functions related to the radio bearers, such as radio bearer
+							control, radio admission control, radio mobility control,
+							scheduling and dynamic allocation of resources to UEs in both
+							uplink and downlink.</p>
+						<p>
+							<img src="./Sai%20Technology%20defense_files/TL10.png">
+						</p>
+						<p>
+							<strong>EnodeB Protocol Stack Deliverables</strong>
+						</p>
+						<ul>
+							<li>Binary or ANSI C source code for core protocol
+								components</li>
+							<li>OS abstraction layer for target RTOS/platform</li>
+							<li>Fully documented APIs with user manuals</li>
+							<li>Continuous update of functionality based on the latest
+								3GPP LTE Standards</li>
+							<li>Product customization support services for both remote
+								and on-site</li>
+							<li>Full solution on reference platforms based on PowerPC,
+								MIPS, Arm and x86.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="container" id="LTE_EPC">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>
+							<strong>LTE EPC</strong>
+						</h2>
+						<p>
+							<strong>LTE EPS (LTE / SAE ) Architecture</strong>
+						</p>
+						<p>
+							<img src="./Sai%20Technology%20defense_files/TL11.png">
+						</p>
+						<p>The EPS architecture is made up of an EPC (Packet Core
+							Network) and eUTRAN Radio Access Network.</p>
+						<p>
+							<strong>EPC Key Network Elements</strong>
+						</p>
+						<p>The core network (Evolved Packet Core in SAE) is
+							responsible for the overall control of the UE and establishment
+							of the bearers. The main logical nodes of the EPC are:</p>
+						<ul>
+							<li>Mobility Management Entity (MME)</li>
+							<li>Serving Gateway (S-GW)</li>
+							<li>PDN Gateway (P-GW)</li>
+						</ul>
+						<p>
+							<strong>Mobility Management Entity ( MME )</strong>
+						</p>
+						<p>This is a key control plane element. Among other functions,
+							it is in charge of managing security functions (authentication,
+							authorization, NAS signaling), handling idle state mobility,
+							roaming, and handovers. Also selecting the Serving Gateway (S-GW)
+							and Packet Data Network Gateway (PDN-GW) nodes is part of its
+							tasks. The S1-MME interface connects the EPC with the eNodeBs.</p>
+						<p>
+							<strong>Serving Gateway ( S &ndash; GW)</strong>
+						</p>
+						<p>The EPC terminates at this node, and it is connected to the
+							E-UTRAN via the S1-U interface. Each UE is associated to a unique
+							S-GW, which will be hosting several functions. It is the mobility
+							anchor point for both local inter-eNodeB handover and inter 3GPP
+							mobility. S-GW performs inter-operator charging as well as packet
+							routing and forwarding.</p>
+						<p>
+							<strong>PDN Gateway ( P &ndash; GW)</strong>
+						</p>
+						<p>This node provides the UE with access to a Packet Data
+							Network (PDN) by assigning an IP address from the PDN to the UE,
+							among other functions. Additionally, the evolved Packet Data
+							Gateway (ePDG) provides security connection between UEs connected
+							from an untrusted non-3GPP access network with the EPC by using
+							IPSec tunnels.</p>
+						<p>SAI has developed MME, S-GW, P-GW which are fully compliant
+							with 3GPP Release 8 and 9.0. SAI is working towards LTE Advanced
+							(Release 10 and beyond).</p>
+						<p>With licensing UE or eNodeB software, SAI provides EPC
+							software running on Intel Servers. These modules are validated
+							with rigorous interoperability tests with other vendors.</p>
+					</div>
+				</div>
+			</div>
+			<div class="container" id="LTE_Adv">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>LTE Advanced</h2>
+						<p>
+							<strong>What&rsquo;s new in LTE Advanced</strong>
+						</p>
+						<p>In the feasibility study for LTE-Advanced, 3GPP determined
+							that LTE-Advanced would meet the ITU-R requirements for 4G. The
+							results of the study are published in 3GPP Technical Report (TR)
+							36.912. Further, it was determined that 3GPP Release 8, 9, and 10
+							LTE could meet most of the 4G requirements apart from uplink
+							spectral efficiency and the peak data rates. These higher
+							requirements are addressed with the addition of the following
+							LTE-Advanced features.</p>
+
+						<ul>
+							<li>Wider bandwidths, enabled by carrier aggregation</li>
+							<li>Higher efficiency, enabled by enhanced uplink multiple
+								access and enhanced multiple antenna transmission (advanced MIMO
+								techniques)</li>
+							<li>Coordinated multipoint transmission and reception (CoMP)</li>
+							<li>Relaying</li>
+							<li>Support for heterogeneous networks</li>
+							<li>LTE self-optimizing network (SON) enhancements</li>
+							<li>Home enhanced-node-B (HeNB) mobility enhancements</li>
+							<li>Fixed wireless customer premises equipment (CPE) RF
+								requirements</li>
+						</ul>
+						<p>
+							<strong>System Performance Requirements</strong>&nbsp;
+						</p>
+						<p>
+							<img src="./Sai%20Technology%20defense_files/TL12.png">
+						</p>
+						<p>
+							<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								Spectrum Flexibility </strong>
+						</p>
+						<p>In addition to the bands currently defined for LTE Release
+							8, TR 36.913 identifies the following new bands:</p>
+						<ul>
+							<li>450&ndash;470 MHz band</li>
+							<li>698&ndash;862 MHz band</li>
+							<li>790&ndash;862 MHz band</li>
+							<li>2.3&ndash;2.4 GHz band</li>
+							<li>3.4&ndash;4.2 GHz band</li>
+							<li>4.4&ndash;4.99 GHz band</li>
+						</ul>
+						<p>Some of these bands are now formally included in the 3GPP
+							Release 9 and Release 10 specifications. Note that frequency
+							bands are considered release independent features, which means
+							that it is acceptable to deploy an earlier release product in a
+							band not defined until a later release.</p>
+						<p>LTE Advanced is designed to operate in spectrum allocations
+							of different sizes, including allocations wider than the 20 MHz
+							in Release 8, in order to achieve higher performance and target
+							data rates. Although it is desirable to have bandwidths greater
+							than 20 MHz deployed in adjacent spectrum, the limited
+							availability of spectrum means that aggregation from different
+							bands is necessary to meet the higher bandwidth requirements.
+							This option has been allowed for in the IMT-Advanced
+							specifications.</p>
+						<p>
+							<strong>SAI LTE &ndash; Advanced Development </strong>
+						</p>
+						<p>SAI is heavily invested in developing complete LTE solution
+							for 3GPP LTE Release 10 and beyond (LTE Advanced). The areas of
+							enhancements are based on current solutions described in LTE UE
+							and eNodeB. The EPC cores are being upgraded to support full
+							system validation based on solutions described in LTE EPC page.</p>
+						<p>Following are snapshot of developments</p>
+						<p>
+							<strong>LTE UE </strong>
+						</p>
+						<ul>
+							<li>LTE PHY</li>
+							<li>LTE Protocol Stack</li>
+							<li>Complete Reference Platform</li>
+						</ul>
+						<p>
+							<strong>LTE ENodeB</strong>
+						</p>
+						<ul>
+							<li>LTE PHY</li>
+							<li>LTE Protocol Stack</li>
+							<li>Complete Reference Platform</li>
+						</ul>
+						<p>
+							<strong>LTE EPC</strong>
+						</p>
+						<ul>
+							<li>MME</li>
+							<li>S-GW</li>
+							<li>P-GW</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>
+							<strong>A few key design enhancements in 802.11ac
+								compared to 802.11n are</strong>
+						</h2>
+						<p>1) Wider channel width i.e. 80 MHz mandatory, or 160 MHz
+							optional (40 MHz maximum in IEEE 802.11n)</p>
+						<p>2) Higher modulation i.e., 256 QAM (64 QAM in case of IEEE
+							802.11n)</p>
+						<p>3) MU-MIMO (Multi User MIMO, SU-MIMO in case of 802.11n).</p>
+						<p>4) Short GI which is 400 &mu;sec</p>
+						<p>5) STBC (Space Time Block Coding) and LDPC (Low Density
+							Parity Check) codes</p>
+						<p>6) Maximum up to eight spatial streams (four in IEEE
+							802.11n)</p>
+						<p>7) The SAI 802.11ac PHY includes support for these
+							features:</p>
+						<p style="padding-left: 30px;">- Support for all channel
+							combinations including 160 MHz contiguous as well as 80+80 MHz
+							combination</p>
+						<p style="padding-left: 30px;">- Full PLCP header support for
+							VHT mode including VHT-SIG-A/B as well as VHT-LTF and
+							VHT-STF&nbsp;</p>
+						<p style="padding-left: 30px;">- PHY configuration and legacy
+							protection in mixed mode</p>
+						<p style="padding-left: 30px;">&ndash; including CTS/RTS and
+							L-SIG-TXOP - All MCS and FEC modes defined by the standard</p>
+						<p style="padding-left: 30px;">- Multiple antenna support in a
+							number of modes including</p>
+						<p>8) NxM MIMO combinations (Up to 8x8) with no restrictions
+							on N and M</p>
+						<p>9) Spatial mapping and STBC support</p>
+						<p>10) All CSD combinations</p>
+						<p>11) SU and MU MIMO
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+						<p style="padding-left: 30px;">- Receiver supports includes
+							channel estimation and MIMO detection
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+						<p style="padding-left: 30px;">- Beamforming support includes</p>
+						<p>12) Steering vector calculations using antenna measurements</p>
+						<p>13) Implicit/Explicit beam forming reports</p>
+						<p>14) VHT compressed beamforming report</p>
+						<p>15) MU-MIMO beamforming report</p>
+						<p>16) MIMO beamforming algorithms using received reports -
+							Performance data for this is measured</p>
+						<p>17) Using channel definitions from the 802.11ac standard
+							(in draft form) models a-f</p>
+						<p>18) Delivering performance data such a BER/PER as well as
+							RSSI and Channel frequency response per link.</p>
+						<p>19) SAI can license 802.11ac Phy &amp; Mac as a complete
+							solution.</p>
+					</div>
+				</div>
+			</div>
+	</div>
+	<div>
+
+
+		<!-- End Blank Section -->
+		<!-- End CONTENT ------------------------------------------------------------------------------>
+		<!-- FOOTER -->
+		<footer class="footer pt-80">
+			<div class="container">
+				<!--Footer Info -->
+				<div class="row footer-info">
+					<div class="col-md-3 col-sm-6 col-xs-12 mb-sm-30 mb-xs-0">
+						<ul class="link">
+							<li><a href="company-overview.html"> COMPANY </a></li>
+							<li><a href="products.html"> PRODUCTS </a></li>
+							<li><a href="solutions.html"> SOLUTIONS </a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 mb-sm-30">
+						<ul class="link">
+							<li><a href="partners.html">Partners </a></li>
+							<li><a href="careers.html"> CAREER </a></li>
+							<li><a href="contact.html"> CONTACT </a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-12 col-xs-12">
+						<p>
+							<a class="footer-logo" href="index.html"> <img
+								src="img/logo-footer.png" />
+							</a>
+						</p>
+						<p>2376, Walsh Avenue, Santa Clara, California,USA.</p>
+					</div>
+					<div class="col-md-3 col-sm-12 col-xs-12">
+						<ul class="link-small">
+							<li><a href="mailto:info@saitechnology.com"> <i
+									class="fa fa-envelope-o left"></i>info@saitechnology.com
+							</a></li>
+							<li><a> <i class="fa fa-phone left"></i>+1 408 727 1560
+							</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- End Footer Info -->
+			</div>
+			<hr />
+			<!-- Copyright Bar -->
+			<section class="copyright ptb-60">
+				<div class="container">
+					<p class="">
+						� 2016 <a href="index.html"> <b>SAI Technologies</b>
+						</a> . All Rights Reserved. <br /> Website Created by <a
+							target="_blank" href="http://www.crascent.com/"> <b>crascent</b>
+						</a>
+					</p>
+				</div>
+			</section>
+			<!-- End Copyright Bar -->
+		</footer>
+		<!-- END FOOTER -->
+		<!-- Scroll Top -->
+		<a class="scroll-top"> <i class="fa fa-angle-double-up"></i>
+		</a>
+		<!-- End Scroll Top -->
+	</div>
+	<!-- Site Wraper End -->
+	<!-- JS -->
+	<script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+	<script src="js/jquery-ui.min.js" type="text/javascript"></script>
+	<script src="js/plugin/jquery.easing.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/plugin/jquery.flexslider.js" type="text/javascript"></script>
+	<script src="js/plugin/background-check.min.js" type="text/javascript"></script>
+	<script src="js/plugin/jquery.fitvids.js" type="text/javascript"></script>
+	<script src="js/plugin/jquery.viewportchecker.js"
+		type="text/javascript"></script>
+	<script src="js/plugin/jquery.stellar.min.js" type="text/javascript"></script>
+	<script src="js/plugin/wow.min.js" type="text/javascript"></script>
+	<script src="js/plugin/jquery.colorbox-min.js" type="text/javascript"></script>
+	<script src="js/plugin/owl.carousel.min.js" type="text/javascript"></script>
+	<script src="js/plugin/isotope.pkgd.min.js" type="text/javascript"></script>
+	<script src="js/plugin/masonry.pkgd.min.js" type="text/javascript"></script>
+	<script src="js/plugin/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+	<script src="js/plugin/jPushMenu.js" type="text/javascript"></script>
+	<script src="js/plugin/jquery.fs.tipper.min.js" type="text/javascript"></script>
+	<script src="js/plugin/mediaelement-and-player.min.js"></script>
+	<script src="js/theme.js" type="text/javascript"></script>
+	<script src="js/navigation.js" type="text/javascript"></script>
+	<script>
+		$(function() {
+			$("#header").load("header.html");
+		});
+	</script>
+</body>
+</html>

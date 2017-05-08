@@ -1,0 +1,11 @@
+# robots.txt for http://www.hindupur.net/
+
+User-agent: *
+Disallow: /mrtech/
+Disallow: /new/
+Disallow: /new-v-1/
+Disallow: /madhu/
+Disallow: /mrtech-notpaid/
+Disallow: /kala/
+Disallow: /sai/
+Disallow: /cure/
