@@ -103,11 +103,11 @@
 
 .navigation ul li:hover a, .header.sticky .navigation ul ul>li:hover>a,
 	.header.sticky .navigation ul>li:hover>a, .navigation>ul>li.active>a {
-	color: #e6ae49;
+	color: #31708f;
 } /*.navigation > ul > li.nav-has-sub > a {  padding-right: 25px;}*/
 /*.navigation > ul > li.nav-has-sub > a::after {  position: absolute;  top: 21px;  right: 10px;  width: 4px;  height: 4px;  border-bottom: 1px solid #323232;  border-right: 1px solid #323232;  content: "";  -webkit-transform: rotate(45deg);  -moz-transform: rotate(45deg);  -ms-transform: rotate(45deg);  -o-transform: rotate(45deg);  transform: rotate(45deg);  -webkit-transition: border-color 0.2s ease;  -moz-transition: border-color 0.2s ease;  -ms-transition: border-color 0.2s ease;  -o-transition: border-color 0.2s ease;  transition: border-color 0.2s ease;}*/
 .navigation>ul>li.nav-has-sub:hover>a::after {
-	border-color: #e6ae49;
+	border-color: #31708f;
 }
 
 .navigation ul ul {

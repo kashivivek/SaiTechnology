@@ -2102,13 +2102,14 @@ header.sticky .navigation a.current-ele {
 
 .dialog-email {
 	position: absolute;
-	right: 5%;
-	width: 380px;
-	padding: 36px 17px;
-	bottom: 25%;
-	border: solid 1px rgba(62, 144, 182, 0.85) !important;
-	background-color: rgba(62, 144, 182, 0.85);
-	text-align: center;
+    right: 2%;
+    /*  width: 380px; */
+    padding: 15px 9px;
+    bottom: 15%;
+    border: solid 1px rgba(62, 144, 182, 0.85) !important;
+    border-radius: 7px;
+    background-color: rgba(62, 144, 182, 0.85);
+    text-align: center;
 }
 
 .input-dialogdiv {
@@ -2317,7 +2318,7 @@ overlay {
 	background-size: cover !important;
 }
 
-.bg-img1, .bg-img2, .bg-img3, .bg-imghealth, .bg-img4, .bg-img5,
+.bg-img1, .bg-img2, .bg-img3, .bg-img4, .bg-img5,
 	.bg-img6, .bg-img7, .bg-img8, .bg-img9, .bg-img10, .bg-img11, .bg-img12,
 	.bg-img13, .bg-img14, .bg-img15, .bg-img16, .bg-img17, .bg-img18,
 	.bg-img19, .bg-img20, .bg-img21, .bg-img22, .bg-img23, .bg-img24,
@@ -2338,7 +2339,10 @@ overlay {
 
 .bg-imghealth {
 	background-image: url("../img/solutions/healthcare-banner.jpg");
-	/* width: 100%; */
+	 background-size: 100%;
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 position: relative;
 }
 
 .bg-img3 {
